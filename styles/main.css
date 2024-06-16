@@ -165,7 +165,7 @@
 .products img:hover{
     opacity: 0.8;
     cursor: pointer;
-    transform: translateY(-5px);
+    transform: translateY(5px);
 }
 
 
@@ -229,9 +229,24 @@ background-color: #555;
 }
 
 
+.t-details {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.5s;
+    box-shadow: 2px 2px rgb(207, 207, 207);
+   
+}
 
 
+.t-details:hover{
 
+    transform: translateY(5px);
+}
 
 
 
