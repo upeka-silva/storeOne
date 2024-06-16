@@ -248,6 +248,61 @@ background-color: #555;
     transform: translateY(5px);
 }
 
+.brand{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.brand img{
+    filter: grayscale(0);
+}
+
+.brand img:hover{
+    filter: grayscale(100%);
+}
+
+
+.footer{
+
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    height: auto;
+    padding: 10px 10px;
+    
+}
+
+.footer-details img{
+
+    width: 100px;
+}
+.footer-details{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.follow >li{
+    list-style: none;
+    display: inline-block;
+
+ 
+}
+
+
+#follow{
+
+    margin-top: -15px;
+}
+
 
 
 
