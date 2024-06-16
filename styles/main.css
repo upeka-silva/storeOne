@@ -149,12 +149,9 @@
 
 
 
-
 .products img {
    
-    width: 200px;
- 
-    
+    width: 200px; 
 }
 
 @media(max-width:575px){
@@ -165,14 +162,83 @@
         
     }
 }
-
 .products img:hover{
     opacity: 0.8;
     cursor: pointer;
+    transform: translateY(-5px);
 }
 
 
+.pagination{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(219, 219, 219);
+    width:100%;
+    border-radius: 6px;
+    padding: 3px 6px;
+    position: relative;
+     
+}
+
+.pagination ul{
+
+
+list-style: none;
+margin: auto;
+display: flex;
+width: auto;
+position: absolute;
+
+
+}
+
+.pagination ul>li>a {
+
  
+    padding: 5px 12px;
+    border-radius: 50%;
+    margin: 2px 15px;
+    color: white;
+    text-decoration: none;
+   
+    
+
+}
+
+.pagination ul>li>a.active{
+
+    background-color: #555;
+}
+
+.offers{
+
+background-color: #555;
+
+
+}
+
+.offer{
+
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
