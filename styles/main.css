@@ -289,20 +289,10 @@ background-color: #555;
     align-items: center;
   
 }
+.footer p {
 
-.follow >li{
-    list-style: none;
-    display: inline-block;
-
- 
+    text-align: center;
 }
-
-
-#follow{
-
-    margin-top: -15px;
-}
-
 
 
 
